@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://kit.fontawesome.com/bf0ddcb0a2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <title>ESECO - szkolenia i usługi komputerowe</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: white">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/eseco_logo.png" height="70" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-uppercase nav-font">
+                <li class="nav-item">
+                    <a class="nav-link borderRight" href="index.html" style="padding-right: 40px;
+                    padding-left: 40px;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link borderRight" href="uslugi.html" style="padding-right: 40px;
+                    padding-left: 40px;">Usługi</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="kontakt.html" style="padding-right: 40px;
+                    padding-left: 40px;">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="containter-fluid">
+
+        <div id="section2" class="jumbotron-fluid section ">
+            <div class="container mb-5">
+                <h1 class="mb-5">
+                    Kontakt
+                </h1>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                        <h4>Jak dojechać ?</h4>
+                        <div class="border-red"></div>
+                        <iframe class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.678076644677!2d22.30838131575651!3d52.17654626937755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471f5bc62577e7c1%3A0x7b9ff55ea0703b3b!2sSpacerowa%2064%2C%2008-110%20%C5%BBabokliki!5e0!3m2!1spl!2spl!4v1580558061115!5m2!1spl!2spl"
+                            style="border:0;"></iframe>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                        <h4>Adres:</h4>
+                        <div class="border-red">
+                        </div>
+                        <p style=" padding-top: 20px">
+                            Żabokliki ul. Spacerowa 64
+                            <br> 08 - 110 Siedlce
+                        </p>
+                        <p>
+                            tel.: 502 319 273
+                        </p>
+                        <p>
+                            E-mail: biuro@eseco.pl
+                        </p>
+
+                        <h4 class="mt-5">Godziny otwarcia: </h4>
+                        <div class="border-red"></div>
+
+                        <p style="padding-top: 20px">
+                            Pon - Pt: 10.00 - 18.00
+                            <br> Pon - Pt: 10.00 - 18.00
+                            <br> Sob: 12.00 - 18.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hr"></div>
+        </div>
+        <div id="section3" class="jumbotron-fluid section">
+            <div class="container mb-5">
+                <h1 class="mb-5">
+                    Napisz czego potrzebujesz
+                </h1>
+                <form class="col-md-10 col-md-offset-2">
+
+                    <div class="row" style="margin-bottom:10px ;">
+                        <div class="col-md-12 col-sm-12 col-lg-6">
+                            <div class="form-group">
+                                <label id="email">Email</label>
+                                <input type="email" class="form-control" id="email1">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-6">
+                            <div class="form-group">
+                                <label id="password">Numer tel:</label>
+                                <input type="password" class="form-control" id="password1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label id="comment">Tu wpisz co chcesz napisać:</label>
+                        <textarea class="form-control " id="comment1"></textarea>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Wyrażam zgodę na przetwarzanie moich danych osobowych.</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-danger text-uppercase">Wyślij</button>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+        <footer class="p-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12 col-lg-4">
+                        <h6 class="border-red-full">
+                            kontakt
+                        </h6>
+                        <div class="textLeft mt-4">
+                            <p>
+                                Żabokliki ul. Spacerowa 64 08 - 110 Siedlce
+                            </p>
+                            <p>
+                                Tel: 502 319 273
+                            </p>
+                            <p>
+                                Email: biuro@eseco.pl
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-4">
+                        <h6 class="border-red-full">
+                            godziny otwarcia
+                        </h6>
+                        <div class="mt-4">
+                            <p>
+                                Pon-Pt: 10:00-18:00
+                            </p>
+                            <p>
+                                Sob: 12:00-18:00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-4">
+                        <h6 class="border-red-full">
+                            znajdź nas
+                        </h6>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com" class="fab fa-facebook-square"></a>
+                            <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                            <a href="https://www.youtube.com" class="fab fa-youtube"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            scrollFunction()
+            var currentScrollPos = window.pageYOffset;
+            var x = window.matchMedia("(min-width: 990px)");
+            if (x.matches) {
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-120px";
+                }
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous"></script>
+</body>
+
+</html>
